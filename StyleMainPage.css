@@ -95,3 +95,8 @@ body {
 .types_of_components h1 {
     color: #fff;
 }
+.types_of_components h1 {
+    background-color: blue;
+    width: 450px;
+    padding: 5px;
+}
