@@ -76,8 +76,6 @@ body {
     padding: 100px 0px 0px 0px;
     background: #0078c9; /* Цвет фона */
     padding: 5px; /* Поля вокруг текста */
-    opacity: 0.8; /* Полупрозрачный фон */
-    filter: alpha(Opacity=70); /* Прозрачность в IE */
     color: #fff; /* Цвет текста */
 }
 .theoretical_introduction h1 {
