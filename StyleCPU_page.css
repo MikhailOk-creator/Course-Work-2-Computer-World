@@ -97,7 +97,7 @@ body {
     height: 225px;
 }
 li {
- list-style-type: none; /* Убираем маркеры */
+    list-style-type: none; /* Убираем маркеры */
 }
 .real_processors h1 {
     color: #fff;

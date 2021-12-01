@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, p, h2 {
     color: #fff;
 }
 .name_of_page {
@@ -91,4 +91,21 @@ body {
     background-color: blue;
     width: 350px;
     padding: 5px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.real_ram h1 {
+    color: #fff;
+    background-color: blue;
+    width: 550px;
+    padding: 5px;
+}
+img {
+    height: 40%;
+    width: 40%;
+}
+.list_of_ram li {
+    background-color: blue;
+    padding: 10px;
 }
