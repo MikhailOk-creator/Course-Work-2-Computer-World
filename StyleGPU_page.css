@@ -70,7 +70,7 @@ body {
     font-style: 18px;
     text-decoration: none;
 }
-.theoretical_introduction {
+.theoretical_introduction  {
     font-size: 16px;
     line-height: 25px;
     padding: 100px 0px 0px 0px;
@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, h2, p {
     color: #fff;
 }
 .name_of_page {
@@ -91,4 +91,21 @@ body {
     background-color: blue;
     width: 210px;
     padding: 5px;
+}
+li {
+ list-style-type: none; /* Убираем маркеры */
+}
+.real_gpu h1 {
+    color: #fff;
+    background-color: blue;
+    width: 550px;
+    padding: 5px;
+}
+.NVidia {
+    background-color: green;
+    padding: 10px;
+}
+.AMD {
+    background-color: red;
+    padding: 10px;
 }

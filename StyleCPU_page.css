@@ -78,10 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1, h2, p {
-    color: #fff;
-}
-.theoretical_introduction a {
+.theoretical_introduction, a h1, h2, p {
     color: #fff;
 }
 .name_of_page {
