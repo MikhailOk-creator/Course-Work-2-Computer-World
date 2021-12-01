@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, h2, p {
     color: #fff;
 }
 .name_of_page {
@@ -95,4 +95,18 @@ body {
 ol {
     position: relative;
     left: 25px;
+}
+.real_psu h1 {
+    color: #fff;
+    background-color: blue;
+    width: 550px;
+    padding: 5px;
+}
+.list_of_psu li {
+    background-color: blue;
+    padding: 10px;
+}
+img {
+    height: 25%;
+    width: 25%;
 }
