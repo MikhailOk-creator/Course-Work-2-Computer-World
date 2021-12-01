@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, h2, p {
     color: #fff;
 }
 .name_of_page {
@@ -91,4 +91,17 @@ body {
     background-color: blue;
     width: 210px;
     padding: 5px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.real_fan h1 {
+    color: #fff;
+    background-color: blue;
+    width: 660px;
+    padding: 5px;
+}
+.real_fan li {
+    background-color: blue;
+    padding: 10px;
 }
