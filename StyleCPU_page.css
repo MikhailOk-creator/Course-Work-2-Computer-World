@@ -81,6 +81,9 @@ body {
 .theoretical_introduction h1 {
     color: #fff;
 }
+.theoretical_introduction a {
+    color: #fff;
+}
 .name_of_page {
     font-size: 16px;
     line-height: 25px;
@@ -95,4 +98,30 @@ body {
 .main_image img {
     width: 225px;
     height: 225px;
+}
+li {
+ list-style-type: none; /* Убираем маркеры */
+}
+.real_processors h1 {
+    color: #fff;
+    background-color: blue;
+    width: 550px;
+    padding: 5px;
+}
+.Intel {
+    background-color: blue;
+}
+.AMD {
+    background-color: red;
+}
+.Intel_img {
+    width: 200px;
+    height: 200px;
+}
+.AMD_img {
+    height: 200px;
+    width: 310px;
+}
+p {
+    color: white;
 }
