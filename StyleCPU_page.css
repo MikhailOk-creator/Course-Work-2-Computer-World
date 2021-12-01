@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, h2, p {
     color: #fff;
 }
 .theoretical_introduction a {
@@ -110,9 +110,11 @@ li {
 }
 .Intel {
     background-color: blue;
+    padding: 10px;
 }
 .AMD {
     background-color: red;
+    padding: 10px;
 }
 .Intel_img {
     width: 200px;
@@ -121,7 +123,4 @@ li {
 .AMD_img {
     height: 200px;
     width: 310px;
-}
-p {
-    color: white;
 }

@@ -78,7 +78,7 @@ body {
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
 }
-.theoretical_introduction h1 {
+.theoretical_introduction h1, h2, p {
     color: #fff;
 }
 .name_of_page {
@@ -92,7 +92,20 @@ body {
     width: 330px;
     padding: 5px;
 }
-ul {
-    position: relative;
-    left: 25px;
+.real_motherboards h1 {
+    color: #fff;
+    background-color: blue;
+    width: 625px;
+    padding: 5px;
+}
+li {
+ list-style-type: none; /* Убираем маркеры */
+}
+.Intel {
+    background-color: blue;
+    padding: 10px;
+}
+.AMD {
+    background-color: red;
+    padding: 10px;
 }
