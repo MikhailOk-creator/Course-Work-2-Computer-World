@@ -59,6 +59,25 @@ body {
     position: relative;
     z-index: 3;
 }
+.introductory_part {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 100px 0px 0px 0px;
+    background: #0078c9; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+}
+.name_of_page {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 100px 0px 0px 0px;
+}
+.name_of_page h1 {
+    color: #fff;
+    background-color: blue;
+    width: 400px;
+    padding: 5px;
+}
 .header__logo img{
     display: block;
     height: 75px;
@@ -69,6 +88,20 @@ body {
     text-transform: uppercase;
     font-style: 18px;
     text-decoration: none;
+}
+h1, p {
+    color: #fff;
+}
+h1 {
+    background-color: blue;
+    width: 450px;
+    padding: 5px;
+}
+ol {
+    margin-left: 20px;
+}
+ul {
+    margin-left: 40px;
 }
 
 @media (max-width: 768px) {
