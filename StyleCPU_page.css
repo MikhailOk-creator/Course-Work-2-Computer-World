@@ -121,6 +121,20 @@ li {
     height: 200px;
     width: 310px;
 }
+.specifications {
+    grid-area: my-spec;
+}
+.processor_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec";
+    }
+}
 
 @media (max-width: 768px) {
     .header__body {
@@ -202,7 +216,4 @@ li {
     body.lock {
         overflow: hidden;
     }
-}
-@media (min-width: 769px) and (max-width: 1308px) {
-
 }
