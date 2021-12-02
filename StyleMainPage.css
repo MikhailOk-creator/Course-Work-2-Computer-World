@@ -101,6 +101,12 @@ body {
 .list_of_components {
     margin-left: 75px;
 }
+a {
+    color: white;
+}
+ul {
+    margin-left: 20px;
+}
 
 @media (max-width: 768px) {
     .header__body {
