@@ -101,13 +101,24 @@ li {
     width: 550px;
     padding: 5px;
 }
-img {
-    height: 40%;
-    width: 40%;
-}
 .list_of_ram li {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
+}
+.specifications {
+    grid-area: my-spec;
+}
+.RAM_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
 }
 
 @media (max-width: 768px) {
@@ -190,7 +201,4 @@ img {
     body.lock {
         overflow: hidden;
     }
-}
-@media (min-width: 769px) and (max-width: 1308px) {
-
 }
