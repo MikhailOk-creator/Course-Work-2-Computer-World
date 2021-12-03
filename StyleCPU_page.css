@@ -132,6 +132,9 @@ li {
 .processor_img {
     grid-area: my-img;
 }
+.link_in_the_text {
+    color: white;
+}
 
 @media (min-width: 935px) {
     #Intel_Corei5_10400, #Intel_Corei9_12900K, #Intel_Corei5_12600K {
