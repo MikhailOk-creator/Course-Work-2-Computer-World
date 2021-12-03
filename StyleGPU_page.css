@@ -104,10 +104,26 @@ li {
 .NVidia {
     background-color: green;
     padding: 10px;
+    border-radius: 10px;
 }
 .AMD {
     background-color: red;
     padding: 10px;
+    border-radius: 10px;
+}
+.specifications {
+    grid-area: my-spec;
+}
+.gpu_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
 }
 
 @media (max-width: 768px) {
