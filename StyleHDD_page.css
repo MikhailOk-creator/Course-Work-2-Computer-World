@@ -104,10 +104,21 @@ li {
 .real_hdd li {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
 }
-img {
-    height: 20%;
-    width: 20%;
+.specifications {
+    grid-area: my-spec;
+}
+.hdd_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
 }
 
 @media (max-width: 768px) {
