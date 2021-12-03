@@ -73,11 +73,42 @@ body {
 .logo_container {
     font-size: 16px;
     line-height: 25px;
-    padding: 100px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 .logo_container img {
     width: 300px;
     height: 300px;
+}
+.explanatory_part {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 100px 0px 0px 0px;
+    background: #0078c9; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border-radius: 5px;
+}
+.name_of_page {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 100px 0px 0px 0px;
+}
+.name_of_page h1 {
+    color: #fff;
+    background-color: blue;
+    width: 140px;
+    padding: 5px;
+}
+h1, p {
+    color: #fff;
+}
+h1 {
+    background-color: blue;
+    width: 450px;
+    padding: 5px;
+}
+ul {
+    margin-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -160,7 +191,4 @@ body {
     body.lock {
         overflow: hidden;
     }
-}
-@media (min-width: 769px) and (max-width: 1308px) {
-
 }
