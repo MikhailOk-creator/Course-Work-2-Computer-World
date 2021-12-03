@@ -105,6 +105,30 @@ li {
     background-color: blue;
     padding: 10px;
 }
+.specifications {
+    grid-area: my-spec;
+}
+.fan_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    #Deepcool {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
+    #Be_quite {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
+    #NZXT {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec"
+    }
+}
 
 @media (max-width: 768px) {
     .header__body {
@@ -186,7 +210,4 @@ li {
     body.lock {
         overflow: hidden;
     }
-}
-@media (min-width: 769px) and (max-width: 1308px) {
-
 }
