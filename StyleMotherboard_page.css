@@ -98,16 +98,35 @@ body {
     width: 625px;
     padding: 5px;
 }
-li {
+.theoretical_introduction > ul {
+    margin-left: 20px;
+}
+.real_motherboards li {
  list-style-type: none; /* Убираем маркеры */
 }
 .Intel {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
 }
 .AMD {
     background-color: red;
     padding: 10px;
+    border-radius: 10px;
+}
+.specifications {
+    grid-area: my-spec;
+}
+.processor_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
 }
 
 @media (max-width: 768px) {
