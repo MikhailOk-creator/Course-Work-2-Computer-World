@@ -130,7 +130,7 @@ li {
     grid-area: my-img;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 935px) {
     #Intel_Corei5_10400, #Intel_Corei9_12900K, #Intel_Corei5_12600K {
         display: grid;
         grid-template-areas: 

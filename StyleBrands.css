@@ -111,7 +111,7 @@ ul {
     margin-left: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 935px) {
     .header__body {
         height: 50px;
     }
