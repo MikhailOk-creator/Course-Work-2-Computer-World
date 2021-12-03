@@ -108,10 +108,12 @@ li {
 .Intel {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
 }
 .AMD {
     background-color: red;
     padding: 10px;
+    border-radius: 10px;
 }
 .Intel_img {
     width: 200px;
@@ -129,10 +131,20 @@ li {
 }
 
 @media (min-width: 769px) {
-    .inf {
+    #Intel_Corei5_10400, #Intel_Corei9_12900K, #Intel_Corei5_12600K {
         display: grid;
         grid-template-areas: 
-            "my-img my-spec";
+            "my-img my-spec my-spec"
+    }
+    #AMD_Ryzen5_3600 {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec my-spec my-spec";
+    }
+    #AMD_Ryzen7_5800X {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec my-spec my-spec my-spec";
     }
 }
 
