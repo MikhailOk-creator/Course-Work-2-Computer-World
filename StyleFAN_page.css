@@ -104,6 +104,7 @@ li {
 .real_fan li {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
 }
 .specifications {
     grid-area: my-spec;

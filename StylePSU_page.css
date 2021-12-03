@@ -92,6 +92,12 @@ body {
     width: 250px;
     padding: 5px;
 }
+.real_psu li {
+    list-style-type: none; /* Убираем маркеры */
+}
+a {
+    color: white;
+}
 ol {
     position: relative;
     left: 25px;
@@ -99,17 +105,29 @@ ol {
 .real_psu h1 {
     color: #fff;
     background-color: blue;
-    width: 550px;
+    width: 595px;
     padding: 5px;
 }
 .list_of_psu li {
     background-color: blue;
     padding: 10px;
+    border-radius: 10px;
 }
-img {
-    height: 25%;
-    width: 25%;
+.specifications {
+    grid-area: my-spec;
 }
+.psu_img {
+    grid-area: my-img;
+}
+
+@media (min-width: 769px) {
+    .inf {
+        display: grid;
+        grid-template-areas: 
+            "my-img my-spec my-spec"
+    }
+}
+
 
 @media (max-width: 768px) {
     .header__body {
@@ -191,7 +209,4 @@ img {
     body.lock {
         overflow: hidden;
     }
-}
-@media (min-width: 769px) and (max-width: 1308px) {
-
 }
