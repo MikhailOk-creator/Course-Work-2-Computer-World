@@ -98,6 +98,7 @@ body {
     background-color: blue;
     width: 450px;
     padding: 5px;
+    border-radius: 4px;
 }
 .list_of_components {
     margin-left: 75px;

@@ -77,6 +77,7 @@ body {
     background: #0078c9; /* Цвет фона */
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
+    border-radius: 20px;
 }
 .theoretical_introduction h1, h2, p {
     color: #fff;
@@ -91,12 +92,14 @@ body {
     background-color: blue;
     width: 330px;
     padding: 5px;
+    border-radius: 4px;
 }
 .real_motherboards h1 {
     color: #fff;
     background-color: blue;
     width: 625px;
-    padding: 5px;
+    padding: 4px;
+    border-radius: 4px;
 }
 .theoretical_introduction > ul {
     margin-left: 20px;

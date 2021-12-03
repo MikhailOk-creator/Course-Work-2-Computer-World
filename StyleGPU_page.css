@@ -77,6 +77,7 @@ body {
     background: #0078c9; /* Цвет фона */
     padding: 20px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
+    border-radius: 20px;
 }
 .theoretical_introduction h1, h2, p {
     color: #fff;
@@ -91,6 +92,7 @@ body {
     background-color: blue;
     width: 210px;
     padding: 5px;
+    border-radius: 4px;
 }
 li {
  list-style-type: none; /* Убираем маркеры */
@@ -100,6 +102,7 @@ li {
     background-color: blue;
     width: 550px;
     padding: 5px;
+    border-radius: 4px;
 }
 .NVidia {
     background-color: green;

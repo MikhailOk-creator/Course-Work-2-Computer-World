@@ -64,8 +64,9 @@ body {
     line-height: 25px;
     padding: 100px 0px 0px 0px;
     background: #0078c9; /* Цвет фона */
-    padding: 5px; /* Поля вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
+    border-radius: 10px;
 }
 .name_of_page {
     font-size: 16px;
@@ -77,6 +78,7 @@ body {
     background-color: blue;
     width: 400px;
     padding: 5px;
+    border-radius: 4px;
 }
 .header__logo img{
     display: block;
@@ -96,6 +98,7 @@ h1 {
     background-color: blue;
     width: 450px;
     padding: 5px;
+    border-radius: 4px;
 }
 ol {
     margin-left: 20px;
